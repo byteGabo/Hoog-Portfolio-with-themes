@@ -7,7 +7,7 @@
     <!---------------------UNICONS------------------------->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!---------------------SWIPER CSS---------------------->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
     <!---------------------CSS----------------------------->
     <link rel="stylesheet" href="assets/css/styles.css">
     <title>Hoog | studio</title>
@@ -272,6 +272,57 @@
             </div>
         </section>
         <!---------------------PORTFOLIO---------------------->
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Proyectos</h2>
+            <span class="section__subtitle">Más recientes</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!---------------------PORTFOLIO 1---------------------->
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/work-1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Post Instagram</h3>
+                            <p class="portfolio__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat enim nulla illum esse eum.</p>
+                            <a href="https://www.behance.net/gabrielchv" target="_blank" class="button button--flex button--small portfolio__button">
+                                Ver más <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!---------------------PORTFOLIO 2---------------------->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/work-2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Carrousel Instagram</h3>
+                            <p class="portfolio__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat enim nulla illum esse eum.</p>
+                            <a href="https://www.behance.net/gabrielchv" target="_blank" class="button button--flex button--small portfolio__button">
+                                Ver más <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                     <!---------------------PORTFOLIO 3---------------------->
+                     <div class="portfolio__content grid swiper-slide">
+                        <img src="assets/img/work-1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Post Instagram</h3>
+                            <p class="portfolio__subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, quaerat enim nulla illum esse eum.</p>
+                            <a href="https://www.behance.net/gabrielchv" target="_blank" class="button button--flex button--small portfolio__button">
+                                Ver más <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
         <!---------------------CONTACT---------------------->
 
     </main>
@@ -279,7 +330,7 @@
     <!---------------------FOOTER------------------------->
 
     <!---------------------SWIPER JS---------------------->
-    <script src=""></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
 
     <!---------------------MAIN JS------------------------>
     <script src="assets/js/main.js"></script>
