@@ -788,8 +788,33 @@ img {
     background-color: var(--text-color-light);
 }
 
+/*=====================WHATSAPP STYLES==================*/
+.whatsapp{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 65px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 100;
+}
+
+.whatsapp-icon {
+    margin-top:13px;
+  }
+
 
 /*=====================MEDIA QUERIES==================*/
+
+@media screen and (max-width: 748px) {
+    .whats{
+        display: none;
+    }
+}
 
 /* for small devices */
 @media screen and (max-width: 350px) {
@@ -824,6 +849,8 @@ img {
     .project__img{
         width: 200px;
     }
+
+
 }
 
 /* for medium devices */
@@ -849,6 +876,9 @@ img {
     .about__buttons{
         height: 80px;
     }
+
+
+
     
 }
 
@@ -890,7 +920,6 @@ img {
        margin-top: 1.5rem;
     }
 
-    
 
     .nav__icon,
     .nav__close,
@@ -1012,6 +1041,8 @@ img {
         margin-top: 4.5rem;
     }
 
+   
+
 }
 
 /* for large devices */
@@ -1058,8 +1089,8 @@ img {
          width: 460px;
     }
 
-    .contact__inputs{
+    /*.contact__inputs{
        
-    }
+    }*/
     
 }
